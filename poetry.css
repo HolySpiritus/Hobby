@@ -55,11 +55,11 @@ nav ul li a:hover::after{
 /*background sewer*/
 .background-image {
     background-image: url(/Images/ghost-background2.gif);
-    background-size: cover; /* Make sure the background covers the whole div */
-    background-position: center; /* Center the background image */
-    height: 545px; /* Adjust the height as needed */
-    width: 100%; /* Make sure it takes up the full width */
-    position: relative; /* Ensure it stays in place */
+    background-size: cover; 
+    background-position: center; 
+    height: 545px; 
+    width: 100%; 
+    position: relative; 
 }
 .poets-introduction{
  color: #fff;
