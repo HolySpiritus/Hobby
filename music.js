@@ -89,17 +89,17 @@ audio.onpause = () => {
     ctrlIcon.classList.add('fa-play');
 };
 
-// Update the slider as the audio plays
+
 audio.ontimeupdate = () => {
     const progressPercent = (audio.currentTime / audio.duration) * 100;
     progress.value = progressPercent;
 };
 
-// Seek through the audio when the slider is changed
+
 progress.addEventListener('input', () => {
     const seekTime = (progress.value / 100) * audio.duration;
     audio.currentTime = seekTime;
 });
 
-// Load the first song initially
+
 loadSong(currentSongIndex);
