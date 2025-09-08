@@ -125,9 +125,9 @@ footer h1{
     color: #634d4a;
 }
 
-/* ...existing code... */
 
-/* Ensure the footer stays at the bottom for desktop screens */
+
+
 @media (min-width: 1200px) {
     body {
         display: flex;
@@ -184,5 +184,3 @@ footer h1{
         color: #634d4a;
     }
 }
-
-/* ...existing code... */
